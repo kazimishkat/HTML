@@ -1,0 +1,12 @@
+table,th,td,tr {
+    text-align: center;
+    border-collapse: collapse;
+    border-color: rgb(255, 0, 76);
+    
+}
+body, header {
+    text-align: center;
+}
+body, table {
+    align: center;
+}
