@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+table, th, tr, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+}
+#form{
+    display: flex;
+    justify-content: center;
+    
+}
+/* for Iframe */
+#main{
+    background-color: rgba(0, 0, 255, 0.055);
+    width: 90%;
+    height: 100vh;
+}
+#main iframe{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: 100vh;
+}
+
+#nav{
+    display: flex;
+    float: right;
+    justify-content: center;
+    background-color: rgba(131, 0, 253, 0.87);
+    width: 10%;
+    height: 100vh;
+}
+
+li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
